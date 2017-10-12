@@ -43,27 +43,37 @@ nav {
         padding: 15px;
         font-size: 0.9rem; }
       nav .navbar ul a:hover {
-        color: #ffffff; }
+        color: #f2f2f2; }
       nav .navbar ul a:focus {
         background-color: #ff7878;
-        color: #ffffff; }
+        color: #f2f2f2; }
       nav .navbar ul a:focus:hover {
         background-color: #080808; }
 
 .cover {
   background-image: url("../../assets/img/header-bg.jpg");
-  height: 500px; }
+  width: 100%;
+  height: 480px;
+  display: block; }
+  .cover .block-text {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%); }
   .cover h1 {
     text-align: center;
-    color: #ffffff;
+    color: #f2f2f2;
     margin: 0px;
     font-weight: 300;
-    font-size: 50px;
-    font-family: 'Raleway', sans-serif; }
+    font-size: 4.3em;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.06em; }
     .cover h1 b {
-      font-weight: 800; }
+      font-weight: 700; }
   .cover h2 {
     text-align: center;
-    color: #ffffff;
+    color: #f2f2f2;
     text-transform: uppercase;
-    font-size: 40px; }
+    font-size: 2.5em;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-top: 10px; }

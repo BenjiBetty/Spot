@@ -7,7 +7,7 @@ $darBlack: #080808;
 $black: #2d2d2d;
 $darkGrey: #555;
 $grey: #999999;
-$white: #ffffff;
+$white: #f2f2f2;
 $pink: #ff7878;
 body {
     margin: 0 auto;
@@ -75,23 +75,34 @@ nav {
 
 .cover {
     background-image: url("../../assets/img/header-bg.jpg");
-    height: 500px;
+    width: 100%;
+    height: 480px;
+    display: block;
+    .block-text {
+        position: relative;
+        top: 45%;
+        transform: translateY(-50%);
+    }
     h1 {
         text-align: center;
         color: $white;
         margin: 0px;
         font-weight: 300;
-        font-size: 50px;
+        font-size: 4.3em;
         font-family: 'Raleway', sans-serif;
+        letter-spacing: 0.06em;
         b {
-            font-weight: 800;
+            font-weight: 700;
         }
     }
     h2 {
         text-align: center;
         color: $white;
         text-transform: uppercase;
-        font-size: 40px;
+        font-size: 2.5em;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin-top: 10px;
     }
 }
 
