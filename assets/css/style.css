@@ -142,3 +142,20 @@ nav {
     .works .wrapper .third-work {
       grid-column: 3;
       grid-row: 1; }
+
+.we-create {
+  text-align: center; }
+  .we-create h3 {
+    text-transform: uppercase;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 80px; }
+  .we-create p {
+    color: #555;
+    font-weight: 300;
+    line-height: 1.7em;
+    margin: 10px auto 80px auto;
+    width: 55%; }
+  .we-create img {
+    width: 72%; }

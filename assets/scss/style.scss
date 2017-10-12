@@ -192,4 +192,26 @@ nav {
     }
 }
 
+//THIRD SECTION
+.we-create {
+    text-align: center;
+    h3 {
+        text-transform: uppercase;
+        color: $black;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 80px;
+    }
+    p {
+        color: $darkGrey;
+        font-weight: 300;
+        line-height: 1.7em;
+        margin: 10px auto 80px auto;
+        width: 55%;
+    }
+    img {
+        width: 72%;
+    }
+}
+
 //FOOTER
