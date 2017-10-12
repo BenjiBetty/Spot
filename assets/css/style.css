@@ -159,3 +159,34 @@ nav {
     width: 55%; }
   .we-create img {
     width: 72%; }
+
+.clients {
+  background-color: #EBEBEB;
+  padding-top: 50px; }
+  .clients h3 {
+    text-transform: uppercase;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 0px; }
+  .clients .wrapper {
+    display: grid;
+    grid-auto-rows: minmax(250px, auto);
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin-top: 30px; }
+    .clients .wrapper .client1 {
+      grid-column: 1;
+      grid-row: 1; }
+    .clients .wrapper .client2 {
+      grid-column: 2;
+      grid-row: 1; }
+    .clients .wrapper .client3 {
+      grid-column: 3;
+      grid-row: 1; }
+    .clients .wrapper .client4 {
+      grid-column: 4;
+      grid-row: 1; }
+    .clients .wrapper .client5 {
+      grid-column: 5;
+      grid-row: 1; }

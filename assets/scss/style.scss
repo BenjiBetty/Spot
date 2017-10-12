@@ -7,6 +7,7 @@ $darBlack: #080808;
 $black: #2d2d2d;
 $darkGrey: #555;
 $grey: #999999;
+$lastGrey: #EBEBEB;
 $whiteGrey:#e0e0e0;
 $white: #f2f2f2;
 $pink: #ff7878;
@@ -211,6 +212,46 @@ nav {
     }
     img {
         width: 72%;
+    }
+}
+
+//FOURTH SECTION (THIRD GRID)
+.clients {
+    background-color: $lastGrey;
+    padding-top: 50px;
+    h3 {
+        text-transform: uppercase;
+        color: $black;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .wrapper {
+        display: grid;
+        grid-auto-rows: minmax(250px, auto);
+        width: 70%;
+        height: auto;
+        text-align: center;
+        margin-top: 30px;
+        .client1 {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        .client2 {
+            grid-column: 2;
+            grid-row: 1;
+        }
+        .client3 {
+            grid-column: 3;
+            grid-row: 1;
+        }
+        .client4 {
+            grid-column: 4;
+            grid-row: 1;
+        }
+        .client5 {
+            grid-column: 5;
+            grid-row: 1;
+        }
     }
 }
 
