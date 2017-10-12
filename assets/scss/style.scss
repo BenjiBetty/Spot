@@ -9,9 +9,15 @@ $darkGrey: #555;
 $grey: #999999;
 $white: #f2f2f2;
 $pink: #ff7878;
+@mixin verticalAlign() {
+    margin-top: 40%;
+    transform: translateY(-50%);
+}
+
 body {
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
+    background-color: $white;
      :link {
         text-decoration: none;
     }
@@ -28,6 +34,8 @@ nav {
     text-transform: uppercase;
     display: inline-block;
     text-align: center;
+    position: fixed;
+    z-index: 1;
     .navbar {
         color: $grey;
         width: 87%;
@@ -78,6 +86,7 @@ nav {
     width: 100%;
     height: 480px;
     display: block;
+    padding-top: 65px;
     .block-text {
         position: relative;
         top: 45%;
@@ -106,4 +115,48 @@ nav {
     }
 }
 
+//FIRST GRID
+.wrapper {
+    display: grid;
+    grid-auto-rows: minmax(330px, auto);
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    h3 {
+        text-transform: uppercase;
+        color: $darkGrey;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    p {
+        color: $darkGrey;
+        margin: 10px 20px 0px 20px;
+        font-weight: 300;
+        line-height: 1.7em;
+    }
+    .fa {
+        color: $pink;
+        font-size: 2em;
+    }
+    .design {
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+    }
+    .bootstrap {
+        grid-column: 2;
+        grid-row: 1;
+        text-align: center;
+    }
+    .support {
+        grid-column: 3;
+        grid-row: 1;
+        text-align: center;
+    }
+    .column {
+        @include verticalAlign();
+    }
+}
+
+// SECOND GRID
 //FOOTER
