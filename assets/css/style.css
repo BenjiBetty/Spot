@@ -190,3 +190,18 @@ nav {
     .clients .wrapper .client5 {
       grid-column: 5;
       grid-row: 1; }
+
+.pink-section {
+  padding-top: 50px;
+  background-color: #ff7878;
+  color: #f2f2f2;
+  padding-bottom: 50px;
+  text-align: center; }
+  .pink-section h3 {
+    text-transform: uppercase; }
+  .pink-section p {
+    color: #f2f2f2;
+    font-weight: 300;
+    line-height: 1.7em;
+    margin: auto;
+    width: 55%; }
