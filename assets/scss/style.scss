@@ -275,3 +275,25 @@ nav {
 }
 
 //FOOTER
+footer {
+    background-color: $black;
+    text-align: center;
+    .wrapper {
+        display: grid;
+        grid-auto-rows: minmax(100px, auto);
+        width: 30%;
+        height: 100%;
+        .twitter {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        .facebook {
+            grid-column: 2;
+            grid-row: 1;
+        }
+        .dribble {
+            grid-column: 3;
+            grid-row: 1;
+        }
+    }
+}
