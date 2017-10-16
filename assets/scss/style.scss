@@ -68,9 +68,11 @@ nav {
                 line-height: 50px;
                 padding: 15px;
                 font-size: 0.9rem;
+                transition-duration: 150ms;
             }
             a:hover {
                 color: $white;
+                transition-duration: 150ms;
             }
             .home {
                 background-color: $pink;
@@ -184,14 +186,35 @@ nav {
         .first-work {
             grid-column: 1;
             grid-row: 1;
+            transition-duration: 250ms;
+            transition-timing-function: linear;
         }
         .second-work {
             grid-column: 2;
             grid-row: 1;
+            transition-duration: 250ms;
+            transition-timing-function: linear;
         }
         .third-work {
             grid-column: 3;
             grid-row: 1;
+            transition-duration: 250ms;
+            transition-timing-function: linear;
+        }
+        .first-work:hover {
+            transform: rotate(-10deg);
+            transition-duration: 250ms;
+            transition-timing-function: linear;
+        }
+        .second-work:hover {
+            transform: rotate(-10deg);
+            transition-duration: 250ms;
+            transition-timing-function: linear;
+        }
+        .third-work:hover {
+            transform: rotate(-10deg);
+            transition-duration: 250ms;
+            transition-timing-function: linear;
         }
     }
 }

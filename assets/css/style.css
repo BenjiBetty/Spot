@@ -44,9 +44,11 @@ nav {
         font-size: 14px;
         line-height: 50px;
         padding: 15px;
-        font-size: 0.9rem; }
+        font-size: 0.9rem;
+        transition-duration: 150ms; }
       nav .navbar ul a:hover {
-        color: #f2f2f2; }
+        color: #f2f2f2;
+        transition-duration: 150ms; }
       nav .navbar ul .home {
         background-color: #ff7878;
         color: #f2f2f2; }
@@ -137,13 +139,31 @@ nav {
     margin-top: 30px; }
     .works .wrapper .first-work {
       grid-column: 1;
-      grid-row: 1; }
+      grid-row: 1;
+      transition-duration: 250ms;
+      transition-timing-function: linear; }
     .works .wrapper .second-work {
       grid-column: 2;
-      grid-row: 1; }
+      grid-row: 1;
+      transition-duration: 250ms;
+      transition-timing-function: linear; }
     .works .wrapper .third-work {
       grid-column: 3;
-      grid-row: 1; }
+      grid-row: 1;
+      transition-duration: 250ms;
+      transition-timing-function: linear; }
+    .works .wrapper .first-work:hover {
+      transform: rotate(-10deg);
+      transition-duration: 250ms;
+      transition-timing-function: linear; }
+    .works .wrapper .second-work:hover {
+      transform: rotate(-10deg);
+      transition-duration: 250ms;
+      transition-timing-function: linear; }
+    .works .wrapper .third-work:hover {
+      transform: rotate(-10deg);
+      transition-duration: 250ms;
+      transition-timing-function: linear; }
 
 .we-create {
   text-align: center; }
