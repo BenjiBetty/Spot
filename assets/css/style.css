@@ -47,10 +47,12 @@ nav {
         font-size: 0.9rem; }
       nav .navbar ul a:hover {
         color: #f2f2f2; }
-      nav .navbar ul a:focus {
+      nav .navbar ul .home {
         background-color: #ff7878;
         color: #f2f2f2; }
-      nav .navbar ul a:focus:hover {
+      nav .navbar ul .home a {
+        color: #f2f2f2; }
+      nav .navbar ul .home:hover {
         background-color: #080808; }
 
 .cover {
@@ -208,12 +210,14 @@ nav {
 
 footer {
   background-color: #2d2d2d;
-  text-align: center; }
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
   footer .wrapper {
     display: grid;
-    grid-auto-rows: minmax(100px, auto);
-    width: 30%;
-    height: 100%; }
+    grid-auto-rows: minmax(0px, auto);
+    width: 14%;
+    height: auto; }
     footer .wrapper .twitter {
       grid-column: 1;
       grid-row: 1; }
@@ -223,3 +227,9 @@ footer {
     footer .wrapper .dribble {
       grid-column: 3;
       grid-row: 1; }
+    footer .wrapper .fa {
+      color: #bdbdbd;
+      margin: auto;
+      font-size: 1.8em; }
+    footer .wrapper .fa:hover {
+      color: #ff7878; }

@@ -3,7 +3,7 @@
 // HEADER
 // FOOTER
 //Variables
-$darBlack: #080808;
+$darkBlack: #080808;
 $black: #2d2d2d;
 $darkGrey: #555;
 $grey: #999999;
@@ -72,12 +72,15 @@ nav {
             a:hover {
                 color: $white;
             }
-            a:focus {
+            .home {
                 background-color: $pink;
                 color: $white;
             }
-            a:focus:hover {
-                background-color: $darBlack;
+            .home a {
+                color: $white;
+            }
+            .home:hover {
+                background-color: $darkBlack;
             }
         }
     }
@@ -278,11 +281,13 @@ nav {
 footer {
     background-color: $black;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     .wrapper {
         display: grid;
-        grid-auto-rows: minmax(100px, auto);
-        width: 30%;
-        height: 100%;
+        grid-auto-rows: minmax(0px, auto);
+        width: 14%;
+        height: auto;
         .twitter {
             grid-column: 1;
             grid-row: 1;
@@ -294,6 +299,14 @@ footer {
         .dribble {
             grid-column: 3;
             grid-row: 1;
+        }
+        .fa {
+            color: #bdbdbd;
+            margin: auto;
+            font-size: 1.8em;
+        }
+        .fa:hover {
+            color: $pink;
         }
     }
 }
